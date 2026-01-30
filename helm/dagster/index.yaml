@@ -3,12 +3,12 @@ entries:
   dagster:
   - apiVersion: v2
     appVersion: dev
-    created: "2026-01-30T13:39:07.054229-08:00"
+    created: "2026-01-30T14:48:54.752668-08:00"
     dependencies:
     - condition: dagster-user-deployments.enableSubchart
       name: dagster-user-deployments
       repository: ""
-      version: 0.0.1-dev
+      version: 0.15.8
     - condition: postgresql.enabled
       name: postgresql
       repository: https://raw.githubusercontent.com/bitnami/charts/eb5f9a9513d987b519f0ecd732e7031241c50328/bitnami
@@ -22,7 +22,7 @@ entries:
       repository: https://raw.githubusercontent.com/bitnami/charts/eb5f9a9513d987b519f0ecd732e7031241c50328/bitnami
       version: 12.7.4
     description: The data orchestration platform built for productivity.
-    digest: 29a7fc43758e92c7c126df40f50b036c5c8a15ebb43a0007f9a3cd6bdb5bcaab
+    digest: 21d085a84a0c57975293e563744f8811f85d3b064f0d57bcad1ab09109f8853d
     icon: https://elementl.com/icons/social/dagster.jpg
     keywords:
     - analytics
@@ -40,12 +40,12 @@ entries:
     - https://github.com/dagster-io/dagster/tree/master/helm/dagster
     type: application
     urls:
-    - dagster-0.0.1-dev.tgz
-    version: 0.0.1-dev
+    - dagster-0.15.8.tgz
+    version: 0.15.8
   postgresql:
   - apiVersion: v1
     appVersion: 11.6.0
-    created: "2026-01-30T13:39:07.055139-08:00"
+    created: "2026-01-30T14:48:54.753408-08:00"
     description: Chart for PostgreSQL, an object-relational database management system
       (ORDBMS) with an emphasis on extensibility and on standards-compliance.
     digest: f3f1f566c93ebb19bca0647127f510c9a2fe4fe4b9153dc7f4c49c34f569da55
@@ -72,7 +72,7 @@ entries:
   rabbitmq:
   - apiVersion: v1
     appVersion: 3.8.2
-    created: "2026-01-30T13:39:07.055857-08:00"
+    created: "2026-01-30T14:48:54.75402-08:00"
     description: Open source message broker software that implements the Advanced
       Message Queuing Protocol (AMQP)
     digest: 7af785788b8d155e34219f0cc3ade6feade27dd4584ab04a658f399303125fb0
@@ -98,7 +98,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 6.0.10
-    created: "2026-01-30T13:39:07.057324-08:00"
+    created: "2026-01-30T14:48:54.755684-08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -127,4 +127,4 @@ entries:
     urls:
     - charts/redis-12.7.4.tgz
     version: 12.7.4
-generated: "2026-01-30T13:39:06.837044-08:00"
+generated: "2026-01-30T14:48:54.550521-08:00"
