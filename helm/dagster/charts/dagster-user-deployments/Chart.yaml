@@ -1,7 +1,7 @@
 ---
 apiVersion: v2
 name: dagster-user-deployments
-version: 0.0.1-dev
+version: 0.15.8
 kubeVersion: ">= 1.18.0-0"
 description: A chart to deploy code servers for your Dagster deployment.
 type: application
@@ -18,4 +18,4 @@ maintainers:
     email: support@elementl.com
     url: https://elementl.com
 icon: https://elementl.com/icons/social/dagster.jpg
-appVersion: dev
+appVersion: 0.15.8
