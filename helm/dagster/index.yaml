@@ -3,7 +3,7 @@ entries:
   dagster:
   - apiVersion: v2
     appVersion: 0.15.8
-    created: "2026-01-30T15:23:28.934098-08:00"
+    created: "2026-01-30T15:31:56.306801-08:00"
     dependencies:
     - condition: dagster-user-deployments.enableSubchart
       name: dagster-user-deployments
@@ -22,7 +22,7 @@ entries:
       repository: https://raw.githubusercontent.com/bitnami/charts/eb5f9a9513d987b519f0ecd732e7031241c50328/bitnami
       version: 12.7.4
     description: The data orchestration platform built for productivity.
-    digest: 563964b4d68bda67f48092572001470e47997d98eb651e49b5c70b9d61ea7590
+    digest: 05f3ea7eaae92f8609ab0ef2639ff154c8fc83a0adcab9e531727af76990dc01
     icon: https://elementl.com/icons/social/dagster.jpg
     keywords:
     - analytics
@@ -40,12 +40,12 @@ entries:
     - https://github.com/dagster-io/dagster/tree/master/helm/dagster
     type: application
     urls:
-    - dagster-0.15.8.tgz
+    - release/dagster-0.15.8.tgz
     version: 0.15.8
   postgresql:
   - apiVersion: v1
     appVersion: 11.6.0
-    created: "2026-01-30T15:23:28.934842-08:00"
+    created: "2026-01-30T15:31:56.103273-08:00"
     description: Chart for PostgreSQL, an object-relational database management system
       (ORDBMS) with an emphasis on extensibility and on standards-compliance.
     digest: f3f1f566c93ebb19bca0647127f510c9a2fe4fe4b9153dc7f4c49c34f569da55
@@ -72,7 +72,7 @@ entries:
   rabbitmq:
   - apiVersion: v1
     appVersion: 3.8.2
-    created: "2026-01-30T15:23:28.935466-08:00"
+    created: "2026-01-30T15:31:56.104538-08:00"
     description: Open source message broker software that implements the Advanced
       Message Queuing Protocol (AMQP)
     digest: 7af785788b8d155e34219f0cc3ade6feade27dd4584ab04a658f399303125fb0
@@ -98,7 +98,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 6.0.10
-    created: "2026-01-30T15:23:28.936836-08:00"
+    created: "2026-01-30T15:31:56.10651-08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -127,4 +127,4 @@ entries:
     urls:
     - charts/redis-12.7.4.tgz
     version: 12.7.4
-generated: "2026-01-30T15:23:28.733698-08:00"
+generated: "2026-01-30T15:31:56.101988-08:00"
