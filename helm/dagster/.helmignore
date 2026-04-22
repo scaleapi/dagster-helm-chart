@@ -22,3 +22,5 @@
 .vscode/
 # schema cli and tests
 schema/
+# packaged chart output
+release/
