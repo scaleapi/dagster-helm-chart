@@ -3,7 +3,7 @@ entries:
   dagster:
   - apiVersion: v2
     appVersion: 1.1.21
-    created: "2026-07-31T13:58:35.651912-04:00"
+    created: "2026-07-31T13:59:49.475722-04:00"
     dependencies:
     - condition: dagster-user-deployments.enableSubchart
       name: dagster-user-deployments
@@ -22,7 +22,7 @@ entries:
       repository: https://raw.githubusercontent.com/bitnami/charts/eb5f9a9513d987b519f0ecd732e7031241c50328/bitnami
       version: 12.7.4
     description: The data orchestration platform built for productivity.
-    digest: 97743ec5937259c53f6bc3bd10d95d2cdbcae36cd52262a33ef8557858783b70
+    digest: b0e77d921801768190cedfb006a4b46a4a739e3c7b849fc51d0ad1a895742b7f
     icon: https://elementl.com/icons/social/dagster.jpg
     keywords:
     - analytics
@@ -45,7 +45,7 @@ entries:
   postgresql:
   - apiVersion: v1
     appVersion: 11.6.0
-    created: "2026-07-31T13:58:35.643974-04:00"
+    created: "2026-07-31T13:59:49.467516-04:00"
     description: Chart for PostgreSQL, an object-relational database management system
       (ORDBMS) with an emphasis on extensibility and on standards-compliance.
     digest: f3f1f566c93ebb19bca0647127f510c9a2fe4fe4b9153dc7f4c49c34f569da55
@@ -72,7 +72,7 @@ entries:
   rabbitmq:
   - apiVersion: v1
     appVersion: 3.8.2
-    created: "2026-07-31T13:58:35.645091-04:00"
+    created: "2026-07-31T13:59:49.468505-04:00"
     description: Open source message broker software that implements the Advanced
       Message Queuing Protocol (AMQP)
     digest: 7af785788b8d155e34219f0cc3ade6feade27dd4584ab04a658f399303125fb0
@@ -98,7 +98,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 6.0.10
-    created: "2026-07-31T13:58:35.647364-04:00"
+    created: "2026-07-31T13:59:49.471161-04:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -127,4 +127,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/scaleapi/dagster-helm-chart/prodsec-release-1.1.21-schema-fix/helm/dagster/charts/redis-12.7.4.tgz
     version: 12.7.4
-generated: "2026-07-31T13:58:35.642641-04:00"
+generated: "2026-07-31T13:59:49.465957-04:00"

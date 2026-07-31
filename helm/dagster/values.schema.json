@@ -144,7 +144,7 @@
             "additionalProperties": {
                 "type": "string"
             },
-            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/master/v1.18.0/_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta/properties/annotations"
+            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/3fb477fb1deb6cc85bbc0cbc2eefc6093f60d6c5/v1.18.0/_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta/properties/annotations"
         },
         "schema__charts__utils__kubernetes__Service": {
             "title": "Service",
@@ -233,19 +233,19 @@
             "title": "EnvVar",
             "type": "object",
             "properties": {},
-            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/master/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.EnvVar"
+            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/3fb477fb1deb6cc85bbc0cbc2eefc6093f60d6c5/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.EnvVar"
         },
         "ConfigMapEnvSource": {
             "title": "ConfigMapEnvSource",
             "type": "object",
             "properties": {},
-            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/master/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.ConfigMapEnvSource"
+            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/3fb477fb1deb6cc85bbc0cbc2eefc6093f60d6c5/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.ConfigMapEnvSource"
         },
         "SecretEnvSource": {
             "title": "SecretEnvSource",
             "type": "object",
             "properties": {},
-            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/master/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.SecretEnvSource"
+            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/3fb477fb1deb6cc85bbc0cbc2eefc6093f60d6c5/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.SecretEnvSource"
         },
         "NodeSelector": {
             "title": "NodeSelector",
@@ -253,12 +253,12 @@
             "additionalProperties": {
                 "type": "string"
             },
-            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/master/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.PodSpec/properties/nodeSelector"
+            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/3fb477fb1deb6cc85bbc0cbc2eefc6093f60d6c5/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.PodSpec/properties/nodeSelector"
         },
         "Affinity": {
             "title": "Affinity",
             "type": "object",
-            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/master/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.Affinity"
+            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/3fb477fb1deb6cc85bbc0cbc2eefc6093f60d6c5/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.Affinity"
         },
         "Tolerations": {
             "title": "Tolerations",
@@ -266,34 +266,34 @@
             "items": {
                 "type": "object"
             },
-            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/master/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.PodSpec/properties/tolerations"
+            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/3fb477fb1deb6cc85bbc0cbc2eefc6093f60d6c5/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.PodSpec/properties/tolerations"
         },
         "PodSecurityContext": {
             "title": "PodSecurityContext",
             "type": "object",
-            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/master/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.PodSecurityContext"
+            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/3fb477fb1deb6cc85bbc0cbc2eefc6093f60d6c5/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.PodSecurityContext"
         },
         "SecurityContext": {
             "title": "SecurityContext",
             "type": "object",
-            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/master/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.SecurityContext"
+            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/3fb477fb1deb6cc85bbc0cbc2eefc6093f60d6c5/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.SecurityContext"
         },
         "Resources": {
             "title": "Resources",
             "type": "object",
-            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/master/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.ResourceRequirements"
+            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/3fb477fb1deb6cc85bbc0cbc2eefc6093f60d6c5/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.ResourceRequirements"
         },
         "ReadinessProbe": {
             "title": "ReadinessProbe",
             "type": "object",
             "properties": {},
-            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/master/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.Probe"
+            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/3fb477fb1deb6cc85bbc0cbc2eefc6093f60d6c5/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.Probe"
         },
         "LivenessProbe": {
             "title": "LivenessProbe",
             "type": "object",
             "properties": {},
-            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/master/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.Probe"
+            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/3fb477fb1deb6cc85bbc0cbc2eefc6093f60d6c5/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.Probe"
         },
         "StartupProbe": {
             "title": "StartupProbe",
@@ -305,19 +305,19 @@
                     "type": "boolean"
                 }
             },
-            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/master/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.Probe"
+            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/3fb477fb1deb6cc85bbc0cbc2eefc6093f60d6c5/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.Probe"
         },
         "VolumeMount": {
             "title": "VolumeMount",
             "type": "object",
             "properties": {},
-            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/master/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.VolumeMount"
+            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/3fb477fb1deb6cc85bbc0cbc2eefc6093f60d6c5/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.VolumeMount"
         },
         "Volume": {
             "title": "Volume",
             "type": "object",
             "properties": {},
-            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/master/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.Volume"
+            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/3fb477fb1deb6cc85bbc0cbc2eefc6093f60d6c5/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.Volume"
         },
         "Dagit": {
             "title": "Dagit",
@@ -521,7 +521,7 @@
             "title": "SecretRef",
             "type": "object",
             "properties": {},
-            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/master/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.LocalObjectReference"
+            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/3fb477fb1deb6cc85bbc0cbc2eefc6093f60d6c5/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.LocalObjectReference"
         },
         "UserDeploymentIncludeConfigInLaunchedRuns": {
             "title": "UserDeploymentIncludeConfigInLaunchedRuns",
@@ -970,7 +970,7 @@
             "title": "Labels",
             "type": "object",
             "properties": {},
-            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/master/v1.18.0/_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta/properties/labels"
+            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/3fb477fb1deb6cc85bbc0cbc2eefc6093f60d6c5/v1.18.0/_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta/properties/labels"
         },
         "IngressPathType": {
             "title": "IngressPathType",
@@ -1942,7 +1942,7 @@
             "title": "ResourceRequirements",
             "type": "object",
             "properties": {},
-            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/master/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.ResourceRequirements"
+            "$ref": "https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/3fb477fb1deb6cc85bbc0cbc2eefc6093f60d6c5/v1.18.0/_definitions.json#/definitions/io.k8s.api.core.v1.ResourceRequirements"
         },
         "RunK8sConfig": {
             "title": "RunK8sConfig",
